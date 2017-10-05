@@ -1,0 +1,429 @@
+body {
+	background: url(bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Montserrat', sans-serif;
+	color: #333;
+	font-size: 1.6rem;
+	background-color: #FAFAFA;
+	-webkit-font-smoothing: antialiased;
+}
+.header {
+	margin-top: 7%;
+	margin-bottom: 4%;
+}
+
+
+.logo {
+	text-align: center;
+	
+}
+
+.arrow-link {
+	color: white;
+	font-weight: bold;
+	top: 10px;
+	left:10px;
+	font-size: 40px;
+	text-decoration: none;
+	color: white;
+}
+
+.arrow-link:visited, .arrow-link:hover, arrow-link:active {
+	color: white;
+	font-weight: bold;
+	top: 10px;
+	left:10px;
+	font-size: 40px;
+	text-decoration: none;
+	color: white;
+}
+
+.logo-link {
+	text-align: center;
+	color: white;
+	letter-spacing: 8px;
+	font-size: 50px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.logo-link:visited {
+	color: white;
+	text-decoration: none;
+}
+
+.logo-link:active {
+	color: white;
+	text-decoration: none;
+}
+
+.logo-link:hover {
+	color: white;
+	text-decoration: none;
+}
+
+
+.welcome-text {
+	color: white;
+	text-align: center;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+.grey-body {
+	/*padding: 10px;
+	background-color: rgba(0, 0, 00, .50);
+   height: auto;
+	max-width: 720px;
+	margin: auto;
+	border-radius: 4px;
+	position: absolute;
+	*/
+	max-width: 720px;
+	margin: auto;
+}
+.grey-body2 {
+	padding: 10px;
+	background-color: rgba(0, 0, 00, .50);
+	min-height: 440px;
+	max-width: 720px;
+	margin: auto;
+	border-radius: 4px;
+}
+.grey-body .headline {
+	color: white;
+	text-align: center;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.grey-body2 .headline {
+	color: white;
+	text-align: center;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.calendar {
+	width: 50%;
+	float: left;
+}
+.calendar-complete {
+	width: 50%;
+	font-size: 12px;
+	float: right;
+	color: white;
+	margin: 1.6rem auto;
+	text-transform: uppercase;
+}
+.confirm-booking-space {
+	letter-spacing: 2px;
+}
+.confirm-form {
+	width: 80%;
+}
+.btn-book {
+	background: #ffbc4a;
+	padding: 7px 15px;
+	color: white;
+	border-radius: 4px;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	outline: none;
+	border: none;
+	text-decoration: none;
+}
+.btn-book:active, .btn-book:visited {
+	background: #ffbc4a;
+	color: white;
+	font-size: 12px;
+	text-decoration: none;
+}
+.btn-book:hover {
+	background: #e2981a;
+	color: white;
+	font-size: 12px;
+	text-decoration: none;
+}
+button {
+	background: #ffbc4a;
+	padding: 7px 15px;
+	color: white;
+	border-radius: 4px;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	outline: none;
+	border: none;
+}
+.button2 {
+	background: #ffbc4a;
+	padding: 7px 15px;
+	color: white;
+	border-radius: 4px;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	outline: none;
+	border: none;
+	margin-top: 20px;
+}
+.cancelbooking-btn {
+	background: #e66a6a;
+	margin-top: 10px;
+}
+input[type=text] {
+	width: 100%;
+	padding: 7px 15px;
+	margin: 8px 0;
+	border-radius: 4px;
+}
+.car-td {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.avalible-cars {
+	width: 88%;
+	margin: auto;
+}
+.car-images {
+	width: 40%;
+	float: left;
+}
+.avalible-car-img {
+	height: 140px;
+	margin-right: 15px;
+}
+.car-info {
+	font-size: 12px;
+	color: white;
+}
+
+@media (max-width: 550px) {
+
+	.calendar {
+	width: 100%;
+	float: left;
+}
+.calendar-complete {
+	width: 90%;
+	font-size: 12px;
+	float: right;
+	color: white;
+	margin: 1.6rem auto;
+	text-transform: uppercase;
+}
+}
+
+
+/*-------css för produkter--------*/
+
+.product {
+	background-color: rgba(0, 0, 00, .50);
+	position: absolute;
+	border-radius: 4px;
+	max-width: 720px;
+	margin-bottom: 5% !important;
+}
+.product h1, h4 {
+	font-family: Helvetica Neue, Arial, sans-serif;
+	font-weight: normal;
+	margin: 0;
+}
+.product h1 {
+	font-size: 24pt;
+}
+.product h4 {
+	font-size: 16pt;
+	color: #aaa;
+}
+.product header {
+	margin-bottom: 20px;
+	background: url('../http://media02.hongkiat.com/html5-single-product-page/apple.png') no-repeat right center;
+}
+.product figure {
+	float: left;
+}
+.product ul {
+	list-style: none;
+	padding: 0;
+	color: white;
+	font-size: 12px;
+}
+.product figure img {
+	width: 300px;
+    height:183px;
+}
+.product section {
+	line-height: 90%;
+	float: left;
+	width: 300px;
+	color: #FFF;
+    margin-top: 10px;
+}
+
+.product li {
+	line-height: 20px;
+}
+
+.sectionclass {
+	line-height: 90%;
+	float: left;
+	width: 300px;
+	color: #333;
+}
+.product .btn-book {
+	background: #ffbc4a;
+	padding: 7px 15px;
+	color: white;
+	border-radius: 4px;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	outline: none;
+	border: none;
+	text-decoration: none;
+}
+.product .btn-book:hover {
+	background: #e2981a;
+	color: white;
+	font-size: 12px;
+	text-decoration: none;
+}
+.product .btn-book:active, button:visited {
+	background: #ffbc4a;
+	color: white;
+	font-size: 12px;
+	text-decoration: none;
+}
+.product summary {
+	cursor: pointer;
+	font-size: 12pt;
+	outline: 0;
+}
+.product details {
+	margin: 20px 0px;
+}
+.product .inputjs {
+	font-style: italic;
+}
+
+.product .hr-product {
+	display: none;
+}
+
+
+@media (max-width: 710px) {
+	.product figure {
+	float: left;
+}
+	
+	.grey-body .headline {
+	color: white;
+	text-align: center;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding: 4px;
+}
+.product ul {
+	list-style: none;
+	padding: 0;
+	color: white;
+	font-size: 12px;
+}
+
+.product figure {
+	margin: 15px;
+}
+	
+.product figure img {
+	max-width: 100%;
+}
+.product section {
+    line-height: 90%;
+    float: left;
+    width: 100%;
+    color: #FFF;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+	
+.product .hr-product  {
+	margin 10px;
+	color: white;
+	height: 2px;
+	width:  100%;
+	display: inherit;
+	}
+	
+.product {
+	background-color: rgba(0, 0, 00, .50);
+	position: absolute;
+	border-radius: 4px;
+	max-width: 720px;
+	margin-bottom: 5% !important;
+		margin-right: 2%;
+}
+}
+
+
+
+
+
+/* ------confirm page css---------*/
+
+.leftcolumn {
+	width: 50%;
+	float: left;
+	padding: 10px;
+	color: white;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.rightcolumn {
+	width: 50%;
+	float: left;
+	padding: 10px;
+	color: white;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.checkbox1 {
+	margin-top: 27px;
+}
+.checkbox2 {
+	margin-top: 10px;
+}
+.white-confirmbox {
+	color: black;
+	background-color: white;
+	width: 100%;
+	height: 160px;
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+
+@media (max-width: 768px) {
+	.leftcolumn {
+	width: 98%;
+}
+.rightcolumn {
+	width: 98%;
+}
+.checkbox1 {
+	margin-top: 27px;
+}
+.checkbox2 {
+	margin-top: 10px;
+}
+.white-confirmbox {
+	margin-top: 20px;
+}
+	
+}

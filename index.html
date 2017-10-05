@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta content="Chrissy Collins" name="author">
+	<meta content="A pure vanilla JS calendar by @chrisssycollins" name="description">
+	<title>Ohlssons bil</title>
+	<link href="calendar-style.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+	<div class="ohlssonsbil-body">
+		<div class="header">
+			<div class="logo">
+				<a href="index.html" class="logo logo-link">OHLSSONS BIL</a>
+			</div>
+			<div>
+				<p class="welcome-text">Välkommen till OHLSSONS<br>
+				ovärdeliga DAGSUTHYRNING AV BILar!</p>
+			</div>
+		</div>
+		<div class="grey-body">
+			<div class="product">
+			<p class="headline">HEJ! VILKET DATUM VILL DU HYRA BIL?</p>
+			<div class="calendar">
+				<div class="container">
+					<div class="cal">
+						<div class="cal__header">
+							<button class="btn btn-action btn-link btn-lg" data-calendar-toggle="previous"><svg height="24" version="1.1" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+							<path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path></svg></button>
+							<div class="cal__header__label" data-calendar-label="month">
+								March 2017
+							</div><button class="btn btn-action btn-link btn-lg" data-calendar-toggle="next"><svg height="24" version="1.1" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+							<path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path></svg></button>
+						</div>
+						<div class="cal__week">
+							<span>Mon</span> <span>Tue</span><span>Wed</span> <span>Thu</span> <span>Fri</span> <span>Sat</span> <span>Sun</span>
+						</div>
+						<div class="cal__body" data-calendar-area="month"></div>
+					</div>
+					<p class="demo-picked">Date picked:<br>
+					<span data-calendar-label="picked"></span></p>
+				</div>
+			</div>
+			<div class="calendar-complete">
+				<form action="carlist.html" class="confirm-form">
+					<input name="confirmage" required="" type="checkbox" value="confirm-age"> <span class="confirm-booking-space">Jag är över 32 år</span>
+					<p class="confirm-booking-space">Se vilka vilka bilar som finns tillgängliga valt datum</p><button class="btn-book" type="submit">SE BILAR</button>
+				</form>
+				<form action="" class="confirm-form">
+					<p class="confirm-booking-space">VILL DU AVBOKA DIN BIL?</p><input name="cancelbooking" placeholder="Ditt bokningsnummer..." required="" type="text"><br>
+					<button class="cancelbooking-btn" type="submit">AVBOKA</button>
+				</form>
+			</div>
+		</div>
+		</div>
+	</div>
+	<script src="vanillacalendar.js" type="text/javascript">
+	</script> 
+	<script>
+	       window.addEventListener('load', function () {
+	         vanillacalendar.init();
+	       })
+	</script>
+</body>
+</html>

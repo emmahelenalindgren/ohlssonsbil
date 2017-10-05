@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta content="Chrissy Collins" name="author">
+	<meta content="A pure vanilla JS calendar by @chrisssycollins" name="description">
+	<title>Ohlssons bil</title>
+	<link href="calendar-style.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+	<div class="ohlssonsbil-body">
+		
+		<div class="header">
+			
+			<div class="logo">
+				<a href="index.html" class="logo-link">OHLSSONS BIL</a>
+			</div>
+		
+		</div>
+		<div class="grey-body">
+			<div class="product">
+			<p class="headline">FYLL I DINA UPPGIFTER FÖR ATT BOKA</p>
+			<div class="">
+				<form action="" class="">
+					<div class="leftcolumn">
+						<span class="confirm-booking-space">Förnamn</span> <input name="fornamn" placeholder="Förnamn" required="" type="text"><br>
+						<span class="confirm-booking-space">Efternamn</span> <input name="fornamn" placeholder="Förnamn" required="" type="text"><br>
+						<span class="confirm-booking-space">Email</span> <input name="email" placeholder="adress@mail.com" required="" type="text"><br>
+						<span class="confirm-booking-space">Mobilnummer</span> <input name="mobilnr" placeholder="07XXXXXXXX" required="" type="text"><br>
+						<span class="confirm-booking-space">Personnr</span> <input name="personnr" placeholder="XXXXXXXX-XXXX" required="" type="text">
+					</div>
+					<div class="rightcolumn">
+						<input class="checkbox1" name="confirmage" required="" type="checkbox" value="confirm-age"> <span class="confirm-booking-space">Jag är över 23 år</span><br>
+						<input class="checkbox2" name="confirmage" required="" type="checkbox" value="confirm-age"> <span class="confirm-booking-space">JAG har läst och godkänner allmänna villkor</span><br>
+						<button class="button2" type="submit">BOKA</button>
+						<div class="white-confirmbox"></div>
+					</div><br>
+				</form>
+			</div>
+		</div>
+		</div>
+	</div>
+	<script src="vanillacalendar.js" type="text/javascript">
+	</script> 
+	<script>
+	       window.addEventListener('load', function () {
+	         vanillacalendar.init();
+	       })
+	</script>
+</body>
+</html>

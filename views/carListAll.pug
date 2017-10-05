@@ -1,0 +1,38 @@
+doctype html
+doctype html
+html
+    include head.pug
+    body
+        .ohlssonsbil-body
+            .header
+                .logo
+                    a.logo.logo-link(href='index.html') OHLSSONS BIL
+        .grey-body
+            .product
+                p.headline= "TILLGÄNGLIGA BILAR" + picked
+                    div
+                        for car in carList
+                            ul
+                                figure
+                                    img(src=car.imgLink)
+                                section    
+                                    li= "Typ: "
+                                        span.inputjs= car.fordonstyp
+                                    li= "Märke: " 
+                                        span.inputjs= car.brand + " "+ car.model
+                                    li= "Körkort: " 
+                                        span.inputjs= car.requiredDrivingLicense
+                                    li= "År: "
+                                        span.inputjs= car.year
+                                    li= "Växellåda: "
+                                        span.inputjs= car.gearbox
+                                    li= "Kostnad: " 
+                                        span.inputjs= car.dagshyra + "kr/dag"
+                                    li= "Kommentarer: "
+                                        span.inputjs= car.kommentarer.skador
+                            a.btn-book(href='confirmbooking.html') BOKA!
+    script(src='vanillacalendar.js', type='text/javascript')
+    script.
+      window.addEventListener('load', function () {
+      vanillacalendar.init();
+      })
